@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'comp208.deans'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "comp208.deans"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 

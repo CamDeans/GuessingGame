@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GuessingGame</string>
+    <string name="desc">ttt yoda cards</string>
+    <string name="author">By Cameron M Deans</string>
 </resources>
