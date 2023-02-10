@@ -7,41 +7,39 @@
     tools:context=".MainActivity">
 
     <!--    - Text view controls can be manipulated using code only, and or by use of the attributes tool.
-            - Android text view components allow the application programmer to add/remove constraints,
-              make changes and can be done both with code and the attributes tools.
-            - Set margins, text alignments etc.
-    -->
+             - Android text view components allow the application programmer to add/remove constraints,
+               make changes and can be done both with code and the attributes tools.
+             - Set margins, text alignments etc.
+     -->
+
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="187dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="32dp"
+        android:id="@+id/TextView"
+        android:layout_width="302dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="682dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="16dp"
         android:text="@string/author"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
         android:textStyle="bold"
-        app:fontFamily="cursive"
+        app:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.95" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TableLayout
-        android:id="@+id/tttBoard"
+        android:id="@+id/mgBoard"
         android:layout_width="341dp"
         android:layout_height="565dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginRight="32dp"
-        android:background="#27449A"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toTopOf="parent">
 
         <!--    - Table row is located within the table layout and can be manipulated using code only, and or by use of the attributes tool.
                 - Android table row components allow the application programmer to set constraints to table,
@@ -57,27 +55,29 @@
                       with specific rendering to improve UI experience, this can be done both with code and the attributes tools.
             -->
             <ImageView
-                android:id="@+id/imageView1"
+                android:id="@+id/yoda_Back1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/desc"
-                app:srcCompat="@drawable/yoda" />
+                app:srcCompat="@drawable/yoda"
+                tools:ignore="UsingOnClickInXml" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/yoda_Back2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/desc"
-                app:srcCompat="@drawable/yoda" />
+                app:srcCompat="@drawable/yoda"
+                tools:ignore="UsingOnClickInXml" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/yoda_Back3"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
@@ -85,7 +85,8 @@
                 android:adjustViewBounds="true"
                 android:background="#9A2727"
                 android:contentDescription="@string/desc"
-                app:srcCompat="@drawable/yoda" />
+                app:srcCompat="@drawable/yoda"
+                tools:ignore="UsingOnClickInXml" />
         </TableRow>
 
         <TableRow
@@ -93,34 +94,37 @@
             android:layout_height="462dp">
 
             <ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/yoda_Back4"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/desc"
-                app:srcCompat="@drawable/yoda" />
+                app:srcCompat="@drawable/yoda"
+                tools:ignore="UsingOnClickInXml" />
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/yoda_Back5"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/desc"
-                app:srcCompat="@drawable/yoda" />
+                app:srcCompat="@drawable/yoda"
+                tools:ignore="UsingOnClickInXml" />
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/yoda_Back6"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/desc"
-                app:srcCompat="@drawable/yoda" />
+                app:srcCompat="@drawable/yoda"
+                tools:ignore="UsingOnClickInXml" />
         </TableRow>
 
         <TableRow
@@ -128,34 +132,37 @@
             android:layout_height="462dp">
 
             <ImageView
-                android:id="@+id/imageView7"
+                android:id="@+id/yoda_Back7"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/desc"
-                app:srcCompat="@drawable/yoda" />
+                app:srcCompat="@drawable/yoda"
+                tools:ignore="UsingOnClickInXml" />
 
             <ImageView
-                android:id="@+id/imageView8"
+                android:id="@+id/yoda_Back8"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/desc"
-                app:srcCompat="@drawable/yoda" />
+                app:srcCompat="@drawable/yoda"
+                tools:ignore="UsingOnClickInXml" />
 
             <ImageView
-                android:id="@+id/imageView9"
+                android:id="@+id/yoda_Back9"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/desc"
-                app:srcCompat="@drawable/yoda" />
+                app:srcCompat="@drawable/yoda"
+                tools:ignore="UsingOnClickInXml" />
 
         </TableRow>
 
@@ -168,27 +175,29 @@
                       with specific rendering to improve UI experience, this can be done both with code and the attributes tools.
             -->
             <ImageView
-                android:id="@+id/imageView10"
+                android:id="@+id/yoda_Back10"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/desc"
-                app:srcCompat="@drawable/yoda" />
+                app:srcCompat="@drawable/yoda"
+                tools:ignore="UsingOnClickInXml" />
 
             <ImageView
-                android:id="@+id/imageView11"
+                android:id="@+id/yoda_Back11"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/desc"
-                app:srcCompat="@drawable/yoda" />
+                app:srcCompat="@drawable/yoda"
+                tools:ignore="UsingOnClickInXml" />
 
             <ImageView
-                android:id="@+id/imageView12"
+                android:id="@+id/yoda_Back12"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
@@ -196,8 +205,38 @@
                 android:adjustViewBounds="true"
                 android:background="#9A2727"
                 android:contentDescription="@string/desc"
-                app:srcCompat="@drawable/yoda" />
+                app:srcCompat="@drawable/yoda"
+                tools:ignore="UsingOnClickInXml" />
         </TableRow>
     </TableLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text=""
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-condensed-medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text=""
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-condensed-medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

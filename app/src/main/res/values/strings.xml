@@ -2,4 +2,9 @@
     <string name="app_name">GuessingGame</string>
     <string name="desc">ttt yoda cards</string>
     <string name="author">By Cameron M Deans</string>
+    <string name="congratulations">CONGRATULATIONS!!</string>
+    <string name="playAgain">Play</string>
+    <string name="end">End</string>
+    <string name="winner">You won, play again or end game!</string>
+    <string name="copyright">Copyright 2023 | Cameron M Deans</string>
 </resources>
